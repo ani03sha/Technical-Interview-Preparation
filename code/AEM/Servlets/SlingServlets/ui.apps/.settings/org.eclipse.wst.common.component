@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SlingServlets.ui.apps">
+        <wb-resource deploy-path="/" source-path="/src/main/content/jcr_root" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/content/jcr_root"/>
+        <property name="context-root" value="/"/>
+        <property name="java-output-path" value="/SlingServlets.ui.apps/target/classes"/>
+    </wb-module>
+</project-modules>
