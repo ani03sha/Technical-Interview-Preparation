@@ -12,7 +12,7 @@ The HttpServlet class provides methods, such as doGet() and doPost(), for handli
 Sling servlets are special type of servlets which are registered as OSGi service of type ***javax.servlet.Servlet***.
  There are some properties defined for Sling Servlets which are as follows - 
  
-1. **sling.servlet.paths**
+- **sling.servlet.paths**
 This is a list of paths under which the servlet is accessible as a Resource. The value can either be a single 
 String, an array of Strings or a Vector of Strings.
 A servlet using this property might be ignored unless its path is included in the Execution Paths (`servletresolver.paths`) 
@@ -20,10 +20,84 @@ configuration setting of the `SlingServletResolver` service.
 Either this property or the `sling.servlet.resourceTypes` property must be set, or the servlet is ignored. If both are set, 
 the servlet is registered using both ways.
 
-2. **sling.servlet.resourceTypes**
+```java
+package org.redquark.aem.servlets.slingservlets;
+
+import javax.servlet.Servlet;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.servlets.HttpConstants;
+import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
+import org.osgi.framework.Constants;
+import org.osgi.service.component.annotations.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * @author Anirudh Sharma
+ */
+@Component(service = Servlet.class, property = {
+		Constants.SERVICE_DESCRIPTION + "=Registered By Path Servlet",
+		"sling.servlet.methods=" + HttpConstants.METHOD_GET,
+		"sling.servlet.paths=" + "/bin/registeredbypathdemo",
+		"sling.servlet.extensions=" + "html"
+		})
+public class RegisteredByPathExample extends SlingSafeMethodsServlet {
+
+	private static final long serialVersionUID = -5869747502146791269L;
+
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
+
+	@Override
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+		log.info("Servlet is being executed via pathss");
+	}
+}
+```
+In the above example, Servlet is only registered by path, so the registration properties `sling.servlet.method`, `sling.servlet.extension` has been ignored.
+
+- **sling.servlet.resourceTypes**
 The resource type(s) supported by the servlet. The property value must either be a single String, an array of Strings or a 
 Vector of Strings. Either this property or the `sling.servlet.paths` property must be set, or the servlet is ignored. 
 If both are set, the servlet is registered using both ways.
+
+```java
+package org.redquark.aem.servlets.slingservlets;
+
+import javax.servlet.Servlet;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.servlets.HttpConstants;
+import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
+import org.osgi.framework.Constants;
+import org.osgi.service.component.annotations.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * @author Anirudh Sharma
+ */
+@Component(service=Servlet.class,
+property={
+		Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
+		"sling.servlet.methods=" + HttpConstants.METHOD_GET,
+		"sling.servlet.resourceTypes="+ "redquark/servlets/example",
+		"sling.servlet.extensions=" + "html"
+	})
+public class RegisterByResourceTypeExample extends SlingSafeMethodsServlet {
+
+	private static final long serialVersionUID = 8417083368846819273L;
+
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
+
+	@Override
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+		log.info("Executing servlet registered via resource type");
+	}
+}
+```
 
 3. **sling.servlet.resourceSuperType**
 The resource super type, indicating which previously registered servlet could intercept the request if the request matches 
@@ -36,6 +110,56 @@ In case this is not empty the first selector(s) (i.e. the one(s) on the left) in
 otherwise the servlet is not executed. 
 After that may follow arbitrarily many non-registered selectors. The property value must either be a single String, 
 an array of Strings or a Vector of Strings. This property is only considered for the registration with `sling.servlet.resourceTypes`.
+
+```java
+package org.redquark.aem.servlets.slingservlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.Servlet;
+
+import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.SlingHttpServletResponse;
+import org.apache.sling.api.servlets.HttpConstants;
+import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
+import org.osgi.framework.Constants;
+import org.osgi.service.component.annotations.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * @author Anirudh Sharma
+ */
+@Component(service=Servlet.class,
+	property={
+			Constants.SERVICE_DESCRIPTION + "=Simple Demo Servlet",
+			"sling.servlet.methods=" + HttpConstants.METHOD_GET,
+			"sling.servlet.resourceTypes="+ "redquark/servlets/example",
+			"sling.servlet.selectors="+"img",
+			"sling.servlet.selectors="+"tab"
+	})
+public class SelectorsPropertyExample extends SlingSafeMethodsServlet {
+
+	private static final long serialVersionUID = 6043799632124866549L;
+
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
+
+	@Override
+	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
+		log.info("Executing servlet using selectors");
+		try {
+			PrintWriter out = response.getWriter();
+			out.println("This servlet will be executed via following requests:");
+			out.println("http://localhost:4502/content/redquark/example/jcr:content.img.json");
+			out.println("http://localhost:4502/contentredquark/example/jcr:content.tab.json");
+		} catch (IOException e) {
+			log.error(e.getMessage(), e);
+		}
+	}
+
+}
+```
 
 5. **sling.servlet.extensions**
 The request URL extensions supported by the servlet for requests. The property value must either be a single String, 
