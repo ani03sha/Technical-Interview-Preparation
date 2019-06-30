@@ -14,7 +14,7 @@ The actual resource path of such resources differs for servlets registered by ty
 
 | Servlet registered by         | Full Resource Path |
 | ------------------------------|------------------|
-| Path                          | <given path>.servlet |
+| Path                          | (given path).servlet |
 | ResourceType                  | for each selector, extension and method combination one resource with path resource type[/[<selector with separator '/'>.][extension][method]].servlet'. |
 
 If multiple servlets are registered for the same metadata the one with the highest service ranking is returned in the virtual resource tree. 
