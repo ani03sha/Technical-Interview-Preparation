@@ -207,3 +207,15 @@ If this property is not set, the first entry in the ResourceResolver search path
 method is used as the prefix. If this entry cannot be derived, a simpe slash - / - is used as the prefix.
 ```
 
+
+## Servlet resolution order
+
+The following order rules are being followed when trying to resolve a servlet for a given request URL and request method 
+and multiple candidates would match. Then the following candidate is being picked (if one rule doesn't lead to one winner, 
+the next rule is being evaluated):
+
+- The one with the highest number of matching selectors + extension.
+- The one which is registered to a resource type closest to the requested one (when traversing the resource type hierarchy up).
+- The one with the highest `service.ranking` property.
+
+In case of an OptingServlet not matching the next candidate is being used.
