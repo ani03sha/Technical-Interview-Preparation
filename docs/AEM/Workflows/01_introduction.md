@@ -79,7 +79,7 @@ workflow. For example, we can allow certain review steps to occur in parallel, s
 This container can allow you to reuse workflow models to implement common sequences of steps. For example a translation 
 workflow model could be used in multiple editing workflows.
 
--**GOTO Step:** The Goto Step allows us to specify the next step in the workflow model to execute, dependent on the 
+- **GOTO Step:** The Goto Step allows us to specify the next step in the workflow model to execute, dependent on the 
 result of an ECMAScript:
       - true: The Goto Step completes and the workflow engine executes the specified step.
       - false: The Goto Step completes and the normal routing logic determines the next step to execute.
