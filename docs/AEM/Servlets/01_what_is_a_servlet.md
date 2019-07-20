@@ -77,9 +77,9 @@ so we can write CGIs in whatever languages available (including Java if we want 
 
 ## Code example
 
-To crate a simple servlet demo, we need to perform following steps - 
+To create a simple servlet demo, we need to perform following steps - 
 
-1. Create a java dynamic web project using maven with the following ***pom.xml***
+- Create a java dynamic web project using maven with the following ***pom.xml***
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -129,7 +129,7 @@ To crate a simple servlet demo, we need to perform following steps -
 </project>
 ``` 
 
-2. Now add the following code in the ***index.html*** file
+- Now add the following code in the ***index.html*** file
 
 ```html
 <!DOCTYPE html>
@@ -144,7 +144,7 @@ To crate a simple servlet demo, we need to perform following steps -
 </html>
 ```
 
-3. Add the following code in ***SimpleHTTPServlet.java*** file
+- Add the following code in ***SimpleHTTPServlet.java*** file
 
 ```java
 package org.redquark.aem.servlets;
@@ -189,7 +189,7 @@ public class SimpleHTTPServlet extends HttpServlet {
 }
 ```
 
-4. Finally add the following code in the ***web.xml*** file to define the servlet mappings
+- Finally add the following code in the ***web.xml*** file to define the servlet mappings
 
 ```xml
 <web-app>
@@ -216,7 +216,7 @@ public class SimpleHTTPServlet extends HttpServlet {
 </web-app>
 ```
 
-5. Click on the index.html file -> Run on server (You need to configure Apache Tomcat server to do this)
+- Click on the index.html file -> Run on server (You need to configure Apache Tomcat server to do this)
 
 
 ## Concept of serialVersionUID
