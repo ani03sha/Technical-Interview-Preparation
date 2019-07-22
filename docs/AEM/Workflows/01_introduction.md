@@ -40,12 +40,9 @@ implemented using the following steps -
     3. Implement the `execute(WorkItem workItem, WorkflowSession workflowSession, MetaDataMap metadataMap)` method with the implementation code.
     
 `execute()` method has three parameters :-
-    1. WorkItem - It is the unit that is passed through an Workflow instance of a `WorkflowModel`. It contains the 
-      `WorkflowData`. The instances acts on and a reference to the WorkflowNode that describes the underlying 
-      workflow step. 
-    2. WorkflowSession - This class provides all functionality (depending on the users rights) for managing `WorkflowModels`, 
-       Workflow instances and their execution.
-    3. MetaDataMap - A value map for generic access to meta data values.
+1. WorkItem - It is the unit that is passed through a Workflow instance of a `WorkflowModel`. It contains the `WorkflowData`. The instances acts on and a reference to the WorkflowNode that describes the underlying workflow step. 
+2. WorkflowSession - This class provides all functionality (depending on the users rights) for managing `WorkflowModels`, Workflow instances and their execution.
+3. MetaDataMap - A value map for generic access to meta data values.
     
 - **Participant Step:** This enables us to assign ownership for a particular action. The workflow will only proceed 
 when the user has manually acknowledged the step. This is used when we want to someone to take an action on the 
