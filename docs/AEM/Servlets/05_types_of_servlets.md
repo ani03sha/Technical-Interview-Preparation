@@ -7,7 +7,7 @@ There are two classes in Sling API which can be inherited to define our custom f
 
 Let us discuss these one by one - 
 
-## SlingSafeMethodsServlets
+## SlingSafeMethodsServlet
 
 This is a helper base class for **read-only** Servlets used in Sling. This base class is actually just a better implementation 
 of the Servlet API's `HttpServlet` class which accounts for extensibility. 
