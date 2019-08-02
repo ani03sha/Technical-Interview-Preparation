@@ -6,8 +6,8 @@ A service listener `org.apache.sling.servlets.resolver.internal.SlingServletReso
 When a request hits the server, this `SlingServletResolver` kicks in to executes its sling script resolution procedure to 
 choose the right servlet to respond to the request.
 
-Each individual servlet will have a dedicated service instance of ServletResourceProvider associated to it, which will 
-provide ServletResources in the resource tree, based on the servlet's registration properties. 
+Each individual servlet will have a dedicated service instance of `ServletResourceProvider` associated to it, which will 
+provide `ServletResources` in the resource tree, based on the servlet's registration properties. 
 
 The actual resource path of such resources differs for servlets registered by type and those registered by path:
 
