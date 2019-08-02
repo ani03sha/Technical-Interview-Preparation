@@ -51,7 +51,7 @@ public class RegisteredByPathExample extends SlingSafeMethodsServlet {
 
 	@Override
 	protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) {
-		log.info("Servlet is being executed via pathss");
+		log.info("Servlet is being executed via path");
 	}
 }
 ```
