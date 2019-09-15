@@ -21,8 +21,14 @@ import com.day.cq.wcm.api.PageManager;
  * 
  * @author Anirudh Sharma
  */
-@Component(service = Servlet.class, property = { "sling.servlet.resourceTypes=cq/Page", "sling.servlet.extensions=html",
-		"sling.servlet.methods=" + HttpConstants.METHOD_GET })
+@Component(
+		service = Servlet.class, 
+		property = { 
+				"sling.servlet.resourceTypes=cq/Page", 
+				"sling.servlet.extensions=json",
+				"sling.servlet.methods=" + HttpConstants.METHOD_GET 
+				}
+		)
 public class AllPageServlet extends SlingSafeMethodsServlet {
 
 	private static final long serialVersionUID = -4646301080512673638L;
