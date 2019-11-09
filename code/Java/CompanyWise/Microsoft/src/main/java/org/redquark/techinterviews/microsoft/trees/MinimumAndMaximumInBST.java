@@ -6,7 +6,7 @@ package org.redquark.techinterviews.microsoft.trees;
  * @author Anirudh Sharma
  *
  */
-public class MinimumInBST {
+public class MinimumAndMaximumInBST {
 
 	// Head of the BST
 	private static Node root;
@@ -68,17 +68,31 @@ public class MinimumInBST {
 		return temp.data;
 	}
 
+	/**
+	 * This method finds the maximum node in the BST
+	 */
+	private static int maximumNode(Node node) {
+		// Temp node
+		Node temp = node;
+		// Loop down to find the rightmost leaf
+		while (temp.right != null) {
+			temp = temp.right;
+		}
+		return temp.data;
+	}
+
 	public static void main(String[] args) {
 
 		// Creating the tree
 		root = insert(4, root);
-		insert(2, root);
+		insert(-7, root);
 		insert(8, root);
-		insert(3, root);
+		insert(13, root);
 		insert(6, root);
-		insert(5, root);
+		insert(25, root);
 
 		System.out.println("Minimum value in BST is: " + minimumNode(root));
+		System.out.println("Maximum value in BST is: " + maximumNode(root));
 	}
 
 }
