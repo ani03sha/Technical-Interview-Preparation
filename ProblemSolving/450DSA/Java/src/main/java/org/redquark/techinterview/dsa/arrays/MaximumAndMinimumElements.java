@@ -17,9 +17,13 @@ public class MaximumAndMinimumElements {
      * @param a - input array
      * @return minimum and maximum elements in the array
      */
-    private static int[] findMaxAndMinNormally(int[] a) {
+    private static Integer[] findMaxAndMinNormally(int[] a) {
+        // Base condition
+        if (a == null || a.length == 0) {
+            return new Integer[]{null, null};
+        }
         // Array to store the result
-        int[] maxAndMinPair = new int[2];
+        Integer[] maxAndMinPair = new Integer[2];
         // 0th element will store the minimum value
         // 1st element will store the maximum value
         maxAndMinPair[0] = a[0];
@@ -44,13 +48,17 @@ public class MaximumAndMinimumElements {
      * @param a - input array
      * @return minimum and maximum elements of the array
      */
-    private static int[] findMinAndMaxOptimally(int[] a) {
+    private static Integer[] findMaxAndMinOptimally(int[] a) {
         return findMaxAndMinOptimally(a, 0, a.length - 1);
     }
 
-    private static int[] findMaxAndMinOptimally(int[] a, int low, int high) {
+    private static Integer[] findMaxAndMinOptimally(int[] a, int low, int high) {
+        // Base condition
+        if (a == null || a.length == 0) {
+            return new Integer[]{null, null};
+        }
         // Array to store the result
-        int[] minAndMaxPair = new int[2];
+        Integer[] minAndMaxPair = new Integer[2];
         // If there is only one element
         if (low == high) {
             minAndMaxPair[0] = minAndMaxPair[1] = a[low];
@@ -67,8 +75,8 @@ public class MaximumAndMinimumElements {
         int mid = low + (high - low) / 2;
         // Recursively get the minimum and maximum elements of
         // two array halves
-        int[] minAndMaxLeft = findMaxAndMinOptimally(a, low, mid);
-        int[] minAndMaxRight = findMaxAndMinOptimally(a, mid + 1, high);
+        Integer[] minAndMaxLeft = findMaxAndMinOptimally(a, low, mid);
+        Integer[] minAndMaxRight = findMaxAndMinOptimally(a, mid + 1, high);
         // Find the minimum and maximum from minimum and maximum
         // of both the halves
         minAndMaxPair[0] = Math.min(minAndMaxLeft[0], minAndMaxRight[0]);
@@ -77,16 +85,22 @@ public class MaximumAndMinimumElements {
     }
 
     public static void main(String[] args) {
-        int[] maxAndMinPair = findMaxAndMinNormally(new int[]{1000, 11, 445, 1, 330, 3000});
+        Integer[] maxAndMinPair = findMaxAndMinNormally(new int[]{1000, 11, 445, 1, 330, 3000});
         System.out.println("Min: " + maxAndMinPair[0] + ", Max: " + maxAndMinPair[1]);
 
         maxAndMinPair = findMaxAndMinNormally(new int[]{9, -2, 12, -21, 342, 67, -63, -32456, 43563, 212, 43546});
         System.out.println("Min: " + maxAndMinPair[0] + ", Max: " + maxAndMinPair[1]);
 
-        maxAndMinPair = findMinAndMaxOptimally(new int[]{1000, 11, 445, 1, 330, 3000});
+        maxAndMinPair = findMaxAndMinNormally(new int[]{});
         System.out.println("Min: " + maxAndMinPair[0] + ", Max: " + maxAndMinPair[1]);
 
-        maxAndMinPair = findMinAndMaxOptimally(new int[]{9, -2, 12, -21, 342, 67, -63, -32456, 43563, 212, 43546});
+        maxAndMinPair = findMaxAndMinOptimally(new int[]{1000, 11, 445, 1, 330, 3000});
+        System.out.println("Min: " + maxAndMinPair[0] + ", Max: " + maxAndMinPair[1]);
+
+        maxAndMinPair = findMaxAndMinOptimally(new int[]{9, -2, 12, -21, 342, 67, -63, -32456, 43563, 212, 43546});
+        System.out.println("Min: " + maxAndMinPair[0] + ", Max: " + maxAndMinPair[1]);
+
+        maxAndMinPair = findMaxAndMinOptimally(new int[]{});
         System.out.println("Min: " + maxAndMinPair[0] + ", Max: " + maxAndMinPair[1]);
     }
 }
