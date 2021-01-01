@@ -1,3 +1,10 @@
 # Technical Interview Preparation
 
-This repository contains various technical interviews and their answers. Edits and imporovments are welcome.
+This repository contains my interview preparation journey for technical interviews.
+
+It includes my solutions to various topics including -
+
+- Problem Solving
+- Language specific problems
+- Design Patterns
+- Frameworks
