@@ -2,6 +2,13 @@ package org.redquark.techinterview.dsa.arrays;
 
 import java.util.Arrays;
 
+/**
+ * @author Anirudh Sharma
+ *
+ * Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
+ *
+ * Try to solve this problem in single pass with O(1) space
+ */
 public class SortArrayOf012 {
 
     private static int[] sort012(int[] nums) {
