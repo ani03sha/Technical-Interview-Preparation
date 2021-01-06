@@ -4,6 +4,9 @@
  * Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
  */
 const maxSumArraySubarray = (a) => {
+    if (a === undefined || a.length === 0) {
+        return 0;
+    }
     // Global maxima
     let globalMax = a[0];
     let localMax = a[0];
