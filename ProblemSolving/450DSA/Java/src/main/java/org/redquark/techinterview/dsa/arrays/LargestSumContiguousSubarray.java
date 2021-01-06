@@ -12,6 +12,10 @@ public class LargestSumContiguousSubarray {
      * @return maximum sum
      */
     private static int maxSumSubarray(int[] a) {
+        // Base condition
+        if (a == null || a.length == 0) {
+            return 0;
+        }
         // Global maxima
         int globalMax = a[0];
         int localMax = a[0];
