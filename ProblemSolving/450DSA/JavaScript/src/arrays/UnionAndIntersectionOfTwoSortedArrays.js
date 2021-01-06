@@ -43,6 +43,9 @@ const findUnion = (a, b) => {
             while (i < m && a[i] === a[i - 1]) {
                 i++;
             }
+            while (j < n && b[j] === b[j - 1]) {
+                j++;
+            }
         }
     }
     // Add all remaining elements from a
@@ -95,6 +98,9 @@ const findIntersection = (a, b) => {
             j++;
             while (i < m && a[i] === a[i - 1]) {
                 i++;
+            }
+            while (j < n && b[j] === b[j - 1]) {
+                j++;
             }
         }
     }
