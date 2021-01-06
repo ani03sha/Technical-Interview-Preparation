@@ -55,6 +55,10 @@ public class UnionAndIntersectionOfTwoSortedArrays {
                 while (i < m && a[i] == a[i - 1]) {
                     i++;
                 }
+                // Handle for duplicate elements
+                while (j < n && b[j] == b[j - 1]) {
+                    j++;
+                }
             }
         }
         // Add all remaining elements from a
@@ -112,6 +116,10 @@ public class UnionAndIntersectionOfTwoSortedArrays {
                 j++;
                 while (i < m && a[i] == a[i - 1]) {
                     i++;
+                }
+                // Handle for duplicate elements
+                while (j < n && b[j] == b[j - 1]) {
+                    j++;
                 }
             }
         }
