@@ -52,7 +52,7 @@ public class MergeTwoSortedArrays {
         System.out.println(Arrays.toString(merge(nums1, nums2)));
 
         nums1 = new int[]{1};
-        nums2 = new int[]{0};
+        nums2 = new int[]{};
         System.out.println(Arrays.toString(merge(nums1, nums2)));
 
         nums1 = new int[]{0, 0};
