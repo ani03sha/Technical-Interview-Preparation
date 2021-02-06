@@ -27,14 +27,14 @@ public class MinimumSwapsAndKTogether {
         }
         // Count number of elements which are greater than k
         // int the first window of size lessThanOrEqualToK
-        int greaterThanOrEqualToK = 0;
+        int greaterThanK = 0;
         for (int i = 0; i < lessThanOrEqualToK; i++) {
             if (nums[i] > k) {
-                greaterThanOrEqualToK++;
+                greaterThanK++;
             }
         }
         // Final count of swaps required
-        int swaps = greaterThanOrEqualToK;
+        int swaps = greaterThanK;
         // Using two pointer technique
         int left = 0;
         int right = lessThanOrEqualToK;
@@ -42,15 +42,15 @@ public class MinimumSwapsAndKTogether {
         while (right < nums.length) {
             // Decrement count of previous window
             if (nums[left] > k) {
-                --greaterThanOrEqualToK;
+                --greaterThanK;
             }
             // Increment count of current window
             if (nums[right] > k) {
-                ++greaterThanOrEqualToK;
+                ++greaterThanK;
             }
             left++;
             right++;
-            swaps = Math.min(swaps, greaterThanOrEqualToK);
+            swaps = Math.min(swaps, greaterThanK);
         }
         return swaps;
     }
