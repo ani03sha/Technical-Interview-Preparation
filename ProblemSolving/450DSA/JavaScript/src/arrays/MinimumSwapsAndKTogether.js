@@ -23,14 +23,14 @@ const minimumSwaps = (nums, k) => {
     }
     // Count number of elements which are greater than k
     // int the first window of size lessThanOrEqualToK
-    let greaterThanOrEqualToK = 0;
+    let greaterThanK = 0;
     for (let i = 0; i < lessThanOrEqualToK; i++) {
         if (nums[i] > k) {
-            greaterThanOrEqualToK++;
+            greaterThanK++;
         }
     }
     // Final count of swaps required
-    let swaps = greaterThanOrEqualToK;
+    let swaps = greaterThanK;
     // Using two pointer technique
     let left = 0;
     let right = lessThanOrEqualToK;
@@ -38,15 +38,15 @@ const minimumSwaps = (nums, k) => {
     while (right < nums.length) {
         // Decrement count of previous window
         if (nums[left] > k) {
-            --greaterThanOrEqualToK;
+            --greaterThanK;
         }
         // Increment count of current window
         if (nums[right] > k) {
-            ++greaterThanOrEqualToK;
+            ++greaterThanK;
         }
         left++;
         right++;
-        swaps = Math.min(swaps, greaterThanOrEqualToK);
+        swaps = Math.min(swaps, greaterThanK);
     }
     return swaps;
 };
