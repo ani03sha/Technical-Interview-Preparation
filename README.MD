@@ -55,7 +55,6 @@ Collection of 450 problems on Data Structures and Algorithms
 
 #### Matrix
 1. 	Spiral Traversal Of A Matrix ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/matrix/SpiralTraversal.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/matrix/SpiralTraversal.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/matrix/SpiralTraversal.js))
-
 2. Search An Element In A Matrix ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/matrix/SearchA2DMatrix.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/matrix/SearchA2DMatrix.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/matrix/SearchA2DMatrix.js))
 
 #### Lists
