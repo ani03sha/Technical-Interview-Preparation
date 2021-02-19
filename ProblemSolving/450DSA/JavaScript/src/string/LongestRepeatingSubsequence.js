@@ -13,8 +13,6 @@ const longestRepeatingSubsequence = (s) => {
     const n = s.length;
     // DP array
     const dp = Array.from(Array(n + 1), () => new Array(n + 1).fill(0));
-    // Fill the dp array
-    
     // Fill the DP array
     for (let i = 1; i <= n; i++) {
         for (let j = 1; j <= n; j++) {
