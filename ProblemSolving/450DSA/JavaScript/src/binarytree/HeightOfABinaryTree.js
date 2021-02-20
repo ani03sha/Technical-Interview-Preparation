@@ -9,7 +9,7 @@
  */
 const getHeight = (root) => {
     // Special case
-    if (root == null) {
+    if (root === null) {
         return 0;
     }
     // Get the height of the left subtree
