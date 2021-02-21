@@ -38,11 +38,11 @@ public class LeftViewOfATree {
                     result.add(current.data);
                 }
                 // Move to left child if exists
-                if (current.left != null) {
+                if (current != null && current.left != null) {
                     nodes.add(current.left);
                 }
                 // Move to the right child if exists
-                if (current.right != null) {
+                if (current != null && current.right != null) {
                     nodes.add(current.right);
                 }
             }
