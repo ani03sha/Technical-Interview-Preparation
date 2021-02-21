@@ -5,6 +5,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * @author Anirudh Sharma
+ * <p>
+ * Given a Binary Tree, print Left view of it.
+ * Left view of a Binary Tree is set of nodes visible when tree is visited from Left side.
+ */
 public class LeftViewOfATree {
 
     private static List<Integer> leftView(Node root) {
