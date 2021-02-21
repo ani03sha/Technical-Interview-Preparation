@@ -8,7 +8,7 @@ import java.util.Queue;
 /**
  * @author Anirudh Sharma
  * <p>
- * Given a Binary Tree, print Right view of it.
+ * Given a Binary Tree, print Left view of it.
  * Left view of a Binary Tree is set of nodes visible when tree is visited from Left side.
  */
 public class LeftViewOfATree {
