@@ -2,7 +2,7 @@
  * @author Anirudh Sharma
  * 
  * Given a Binary Tree, print Left view of it.
- * Left view of a Binary Tree is set of nodes visible when tree is visited from Left side.
+ * Left view of a Binary Tree is set of nodes visible when tree is visited from right side.
  */
 const rightView = (root) => {
     // Array to store the result
