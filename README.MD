@@ -99,3 +99,4 @@ Collection of 450 problems on Data Structures and Algorithms
 1. [Building A RESTful Webservice](https://github.com/ani03sha/Technical-Interview-Preparation/tree/master/Frameworks/Spring/rest-service)
 2. [Scheduling Tasks](https://github.com/ani03sha/Technical-Interview-Preparation/tree/master/Frameworks/Spring/scheduling-tasks)
 3. [Consuming Rest Application](https://github.com/ani03sha/Technical-Interview-Preparation/tree/master/Frameworks/Spring/consuming-rest)
+4. [Accessing Relational Data Using JDBC](https://github.com/ani03sha/Technical-Interview-Preparation/tree/master/Frameworks/Spring/accessing-relational-data-jdbc)
