@@ -22,7 +22,7 @@ const countOfBalancedSubstrings = (s) => {
         if (zeroCount === oneCount) {
             count++;
         }
-    };
+    }
     return zeroCount === oneCount ? count : -1;
 };
 
