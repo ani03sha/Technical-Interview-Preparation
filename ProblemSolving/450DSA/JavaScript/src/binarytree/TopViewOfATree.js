@@ -38,7 +38,7 @@ const topViewHelper = (root, verticalDistance, horizontalDistance, treeMap) => {
     else {
         const currentPair = treeMap.get(horizontalDistance);
         if (currentPair.height >= verticalDistance) {
-            treeMap.put(horizontalDistance, new Pair(root.data, verticalDistance));
+            treeMap.set(horizontalDistance, new Pair(root.data, verticalDistance));
         }
     }
     topViewHelper(root.left, verticalDistance + 1, horizontalDistance - 1, treeMap);
