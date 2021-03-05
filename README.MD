@@ -96,6 +96,9 @@ Collection of 450 problems on Data Structures and Algorithms
 11. Top View Of A Tree ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/binarytree/TopViewOfATree.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/binarytree/TopViewOfATree.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/binarytree/TopViewOfATree.js))
 12. Bottom View Of A Tree ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/binarytree/BottomViewOfATree.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/binarytree/BottomViewOfATree.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/binarytree/BottomViewOfATree.js))
 
+### Dynamic Programming
+1. Coin Change ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/dynamicprogramming/CoinChange.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/dynamicprogramming/CoinChange.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/dynamicprogramming/CoinChange.js))
+
 ## Frameworks
 
 ### Spring
