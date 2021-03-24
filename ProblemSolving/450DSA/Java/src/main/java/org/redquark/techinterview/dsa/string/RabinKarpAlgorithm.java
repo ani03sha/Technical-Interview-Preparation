@@ -43,7 +43,7 @@ public class RabinKarpAlgorithm {
             if (patternHash == textHash) {
                 // Check for characters one by one
                 for (int j = 0; j < patternLength; j++) {
-                    if (text.charAt(i) != pattern.charAt(j)) {
+                    if (text.charAt(i + j) != pattern.charAt(j)) {
                         break;
                     }
                 }
