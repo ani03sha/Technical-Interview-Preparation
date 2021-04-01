@@ -3,6 +3,12 @@ package org.redquark.techinterview.dsa.string;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author Anirudh Sharma
+ * <p>
+ * Given a string in roman no format(s) your task is to convert it to an integer.
+ * Various symbols and their values are given below.
+ */
 public class RomanToInteger {
 
     private static int romanToInteger(String s) {
