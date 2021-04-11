@@ -131,6 +131,31 @@ Collection of 450 problems on Data Structures and Algorithms
 1. Coin Change ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/dynamicprogramming/CoinChange.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/dynamicprogramming/CoinChange.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/dynamicprogramming/CoinChange.js))
 2. Knapsack Problem ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/dynamicprogramming/Knapsack.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/dynamicprogramming/Knapsack.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/dynamicprogramming/Knapsack.js))
 
+### Cracking The Coding Interview
+
+#### Arrays and Strings
+
+1. [Is Unique](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/IsUnique.java)
+2. [Check Permutation](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/CheckPermutation.java)
+3. [URLify](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/URLify.java)
+4. [Palindrome Permutation](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/PalindromePermutation.java)
+5. [One Away](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/OneAway.java)
+6. [String Compression](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/StringCompression.java)
+7. [Rotate Matrix](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/RotateMatrix.java)
+8. [Zero Matrix](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/ZeroMatrix.java)
+9. [String Rotation](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/arraysandstrings/StringRotation.java)
+
+#### Linked Lists
+
+1. [Remove Duplicates](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/RemoveDuplicates.java)
+2. [Return Kth To Last](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/KthToLastElement.java)
+3. [Delete Middle Node](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/DeleteMiddleNode.java)
+4. [Partition](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/Partition.java)
+5. [Sum Lists](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/SumLists.java)
+6. [Palindrome](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/Palindrome.java)
+7. [Intersection](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/Intersection.java)
+8. [Loop Detection](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/LoopDetection.java)
+
 ## Frameworks
 
 ### Spring
