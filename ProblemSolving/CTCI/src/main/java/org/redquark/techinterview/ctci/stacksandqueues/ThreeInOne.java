@@ -20,27 +20,6 @@ public class ThreeInOne {
         this.a = new int[3 * stackSize];
     }
 
-    public static void main(String[] args) {
-        ThreeInOne threeInOne = new ThreeInOne(5);
-        for (int i = 0; i < 15; i++) {
-            threeInOne.push(i % 3, i + 1);
-        }
-        System.out.println(Arrays.toString(threeInOne.a));
-        try {
-            threeInOne.push(0, 15);
-        } catch (StackOverflowError e) {
-            e.printStackTrace();
-        }
-        for (int i = 0; i < 15; i++) {
-            System.out.print(threeInOne.pop(i % 3) + " ");
-        }
-        try {
-            threeInOne.pop(1);
-        } catch (EmptyStackException e) {
-            e.printStackTrace();
-        }
-    }
-
     public void push(int stackIndex, int value) {
         if (isFull(stackIndex)) {
             throw new StackOverflowError();
@@ -87,5 +66,30 @@ public class ThreeInOne {
         // Get size of the current stack
         int size = stacks[stackIndex];
         return offset + size - 1;
+    }
+
+    public static void main(String[] args) {
+        ThreeInOne threeInOne = new ThreeInOne(5);
+        for (int i = 0; i < 15; i++) {
+            threeInOne.push(i % 3, i + 1);
+        }
+        System.out.println(Arrays.toString(threeInOne.a));
+        for (int i = 0; i < 15; i++) {
+            System.out.print(threeInOne.peek(i % 3) + " ");
+        }
+        System.out.println();
+        try {
+            threeInOne.push(0, 15);
+        } catch (StackOverflowError e) {
+            e.printStackTrace();
+        }
+        for (int i = 0; i < 15; i++) {
+            System.out.print(threeInOne.pop(i % 3) + " ");
+        }
+        try {
+            threeInOne.pop(1);
+        } catch (EmptyStackException e) {
+            e.printStackTrace();
+        }
     }
 }
