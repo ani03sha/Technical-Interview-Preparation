@@ -156,6 +156,15 @@ Collection of 450 problems on Data Structures and Algorithms
 7. [Intersection](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/Intersection.java)
 8. [Loop Detection](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/linkedlists/LoopDetection.java)
 
+#### Stacks and Queues
+
+1. [Three In One](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/ThreeInOne.java)
+2. [Stack Min](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/StackMin.java)
+3. [Stack Of Plates](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/StackOfPlates.java)
+4. [Queue Via Stacks](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/QueueViaStacks.java)
+5. [Sort Stack](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/SortStack.java)
+6. [Animal Shelter](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/AnimalShelter.java)
+
 ## Frameworks
 
 ### Spring
