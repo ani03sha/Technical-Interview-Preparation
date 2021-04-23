@@ -1,6 +1,5 @@
 package org.redquark.techinterview.ctci.treesandgraphs;
 
-import static org.redquark.techinterview.ctci.treesandgraphs.TreeNode.inorder;
 
 /**
  * @author Anirudh Sharma
@@ -30,9 +29,18 @@ public class MinimalTree {
         return node;
     }
 
+    private static void printInorder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        printInorder(root.left);
+        System.out.print(root.data + " ");
+        printInorder(root.right);
+    }
+
     public static void main(String[] args) {
         int[] a = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         TreeNode root = createMinimalTree(a);
-        inorder(root);
+        printInorder(root);
     }
 }
