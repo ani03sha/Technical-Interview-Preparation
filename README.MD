@@ -172,6 +172,21 @@ Collection of 450 problems on Data Structures and Algorithms
 5. [Sort Stack](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/SortStack.java)
 6. [Animal Shelter](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/stacksandqueues/AnimalShelter.java)
 
+#### Trees and Graphs
+
+1. [Route Between Nodes](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/RouteBetweenNodes.java)
+2. [Minimal Tree](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/MinimalTree.java)
+3. [List of Depths](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/ListOfDepths.java)
+4. [Check Balanced](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/CheckBalanced.java)
+5. [Validate BST](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/ValidateBST.java)
+6. [Successor](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/Successor.java)
+7. [Build Order](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/BuildOrder.java)
+8. [First Common Ancestor](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/FirstCommonAncestor.java)
+9. [BST Sequences](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/BSTSequences.java)
+10. [Check Subtree](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/CheckSubtree.java)
+11. [Random Node](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/RandomNode.java)
+12. [PathsWithSum](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/treesandgraphs/PathsWithSum.java)
+
 ## Frameworks
 
 ### Spring
