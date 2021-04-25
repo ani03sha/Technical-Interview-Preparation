@@ -48,5 +48,8 @@ public class BinaryToString {
 
         n = 0.78125;
         System.out.println(binaryToString(n));
+
+        n = 0.34375;
+        System.out.println(binaryToString(n));
     }
 }
