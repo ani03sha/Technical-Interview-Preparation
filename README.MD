@@ -141,6 +141,7 @@ Collection of 450 problems on Data Structures and Algorithms
 ### Bit Manipulation
 
 1. Count Set Bits ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/bitmanipulation/CountSetBits.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/bitmanipulation/CountSetBits.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/bitmanipulation/CountSetBits.js))
+2. Non Repeating Numbers ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/bitmanipulation/NonRepeatingNumbers.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/bitmanipulation/NonRepeatingNumbers.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/bitmanipulation/NonRepeatingNumbers.js))
 
 ### Cracking The Coding Interview
 
