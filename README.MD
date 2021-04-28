@@ -138,6 +138,10 @@ Collection of 450 problems on Data Structures and Algorithms
 8. Partition Equal Subset Sum ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/dynamicprogramming/PartitionEqualSubsetSum.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/dynamicprogramming/PartitionEqualSubsetSum.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/dynamicprogramming/PartitionEqualSubsetSum.js))
 9. Friends Pairing Problem ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/dynamicprogramming/FriendsPairingProblem.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/dynamicprogramming/FriendsPairingProblem.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/dynamicprogramming/FriendsPairingProblem.js))
 
+### Bit Manipulation
+
+1. Count Set Bits ([Java](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Java/src/main/java/org/redquark/techinterview/dsa/bitmanipulation/CountSetBits.java), [Python](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/Python/src/bitmanipulation/CountSetBits.py), [JavaScript](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/450DSA/JavaScript/src/bitmanipulation/CountSetBits.js))
+
 ### Cracking The Coding Interview
 
 #### Arrays and Strings
