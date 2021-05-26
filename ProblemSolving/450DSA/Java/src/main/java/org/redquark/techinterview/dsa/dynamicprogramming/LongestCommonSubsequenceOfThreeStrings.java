@@ -1,5 +1,10 @@
 package org.redquark.techinterview.dsa.dynamicprogramming;
 
+/**
+ * @author Anirudh Sharma
+ * <p>
+ * Given 3 strings A, B and C, the task is to find the longest common sub-sequence in all three given sequences.
+ */
 public class LongestCommonSubsequenceOfThreeStrings {
 
     private static int lcsOfThreeStrings(String A, String B, String C) {
