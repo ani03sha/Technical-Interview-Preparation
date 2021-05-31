@@ -14,6 +14,11 @@ package org.redquark.techinterview.dsa.dynamicprogramming;
  * However, if the egg does not break, you may reuse it in future moves.
  * <p>
  * Return the minimum number of moves that you need to determine with certainty what the value of f is.
+ *
+ * Constraints:
+ *
+ * 1 <= k <= 100
+ * 1 <= n <= 10^4
  */
 public class EggDrop {
 
