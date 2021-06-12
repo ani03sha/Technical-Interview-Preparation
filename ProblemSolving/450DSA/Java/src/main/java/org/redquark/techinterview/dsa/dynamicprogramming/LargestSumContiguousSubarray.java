@@ -7,7 +7,9 @@ package org.redquark.techinterview.dsa.dynamicprogramming;
  */
 public class LargestSumContiguousSubarray {
 
-    private static int maxSubarraySum(int[] a, int n) {
+    private static int maxSubarraySum(int[] a) {
+        // Length of the array
+        int n = a.length;
         // Global maxima
         int globalMax = a[0];
         int localMax = a[0];
@@ -17,5 +19,14 @@ public class LargestSumContiguousSubarray {
             globalMax = Math.max(localMax, globalMax);
         }
         return globalMax;
+    }
+
+    public static void main(String[] args) {
+        int[] a = new int[]{1, 2, 3, -2, 5};
+        System.out.println(maxSubarraySum(a));
+
+        a = new int[]{-1, -2, -3, -4};
+        System.out.println(maxSubarraySum(a));
+
     }
 }
