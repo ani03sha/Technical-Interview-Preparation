@@ -2,20 +2,10 @@ package org.redquark.techinterview.dsa.dynamicprogramming;
 
 /**
  * @author Anirudh Sharma
- * <p>
- * Given a string s, return the number of different non-empty palindromic subsequences in s.
- * Since the answer may be very large, return it modulo 10^9 + 7.
- * <p>
- * A subsequence of a string is obtained by deleting zero or more characters from the string.
- * <p>
- * A sequence is palindromic if it is equal to the sequence reversed.
- * <p>
- * Two sequences a1, a2, ... and b1, b2, ... are different if there is some i for which ai != bi.
- * <p>
- * Constraints:
- * <p>
- * 1 <= s.length <= 1000
- * s[i] is either 'a', 'b', 'c', or 'd'.
+ *
+ * Find how many palindromic subsequences (need not necessarily be distinct) can be formed
+ * in a given string.
+ * Note that the empty string is not considered as a palindrome.
  */
 public class CountAllPalindromicSubsequences {
 
