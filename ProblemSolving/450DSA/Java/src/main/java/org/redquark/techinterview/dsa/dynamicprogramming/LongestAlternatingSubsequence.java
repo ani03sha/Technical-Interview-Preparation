@@ -1,6 +1,13 @@
 package org.redquark.techinterview.dsa.dynamicprogramming;
 
-
+/**
+ * @author Anirudh Sharma
+ * <p>
+ * A sequence {x1, x2, .. xn} is alternating sequence if its elements satisfy one of the
+ * following relations :
+ * x1 < x2 > x3 < x4 > x5..... or  x1 >x2 < x3 > x4 < x5.....
+ * Your task is to find the longest such sequence.
+ */
 public class LongestAlternatingSubsequence {
 
     private static int longestAlternatingSubsequence(int[] nums) {
