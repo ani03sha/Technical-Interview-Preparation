@@ -21,7 +21,7 @@ def countMaximum(nums):
     n = len(nums)
     # Lookup table to store the maximum value between
     # certain indices
-    lookup = [[0 for y in range(n)] for x in range(n)]
+    lookup = [[0 for i in range(n)] for i in range(n)]
     for gap in range(n):
         for j in range(gap, n):
             i = j - gap
