@@ -10,7 +10,7 @@ Assume that the length of each word is smaller than the line width.
 
 The problem is to minimize the following total cost.
 Cost of a line = (Number of extra spaces in the line)^2
-Total Cost = Sum of costs for all lines
+Total Cost = Sum of costs for all lines 
 """
 
 
