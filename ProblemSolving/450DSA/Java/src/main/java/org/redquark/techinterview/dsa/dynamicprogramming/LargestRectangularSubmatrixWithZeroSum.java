@@ -5,6 +5,8 @@ import java.util.Map;
 
 /**
  * @author Anirudh Sharma
+ *
+ * Given a 2D matrix, find the largest rectangular sub-matrix whose sum is 0.
  */
 public class LargestRectangularSubmatrixWithZeroSum {
 
