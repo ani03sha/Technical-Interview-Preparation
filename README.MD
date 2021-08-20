@@ -252,13 +252,17 @@ Collection of 450 problems on Data Structures and Algorithms
 #### Bit Manipulation
 
 1. [Insertion](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/Insertion.java)
-1. [Binary To String](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/BinaryToString.java)
+2. [Binary To String](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/BinaryToString.java)
 3. [Flip Bit To Win](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/FlipBitToWin.java)
 4. [Next Number](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/NextNumber.java)
 5. [Debugger](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/Debugger.java)
 6. [Conversion](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/Conversion.java)
 7. [Pairwise Swap](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/PairwiseSwap.java)
 8. [Draw Line](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/bitmanipulation/DrawLine.java)
+
+#### Recursion And Dynamic Programming
+
+1. [TripleStep](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/recursionanddp/TripleStep.java)
 
 ## Frameworks
 
