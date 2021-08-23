@@ -262,7 +262,8 @@ Collection of 450 problems on Data Structures and Algorithms
 
 #### Recursion And Dynamic Programming
 
-1. [TripleStep](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/recursionanddp/TripleStep.java)
+1. [Triple Step](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/recursionanddp/TripleStep.java)
+2. [Robot In A Grid](https://github.com/ani03sha/Technical-Interview-Preparation/blob/master/ProblemSolving/CTCI/src/main/java/org/redquark/techinterview/ctci/recursionanddp/RobotInAGrid.java)
 
 ## Frameworks
 
